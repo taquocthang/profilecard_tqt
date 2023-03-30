@@ -61,9 +61,14 @@ body {
 }
 
 .card p {
-    margin-top: 15px;
-    color: #ff006a;
-    font-size: 17px;
+    margin-top: 18px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.card p:hover {
+    color: #f2726a;
+    transition: 1s;
 }
 
 .card_social {
@@ -78,7 +83,6 @@ body {
 }
 
 .card_social a:hover {
-    /* color: rgb(20, 142, 223); */
     color: #ff006a;
     transition: 1s;
 }
