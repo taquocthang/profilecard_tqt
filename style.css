@@ -58,6 +58,7 @@ body {
 
 .card h2 {
     margin-top: 40px;
+    cursor: context-menu;
 }
 
 .card p {
@@ -67,7 +68,7 @@ body {
 }
 
 .card p:hover {
-    color: #f2726a;
+    color: #ff006a;
     transition: 1s;
 }
 
@@ -84,8 +85,16 @@ body {
 
 .card_social a:hover {
     color: #ff006a;
-    transition: 1s;
+    transition: 1.3s;
 }
+
+.card_social a {
+    padding: 5px;
+    border-radius: 13px;
+    border: 1px solid var(--primary-color);
+    transition: background-color 0.3s;
+}
+
 
 .card button {
     width: 100px;
